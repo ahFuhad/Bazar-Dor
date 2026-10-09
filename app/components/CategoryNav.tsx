@@ -7,8 +7,8 @@ const categories = [
     { name: "সবজি", icon: "🥬", slug: "sobji" },
     { name: "মাছ", icon: "🐟", slug: "mach" },
     { name: "মাংস", icon: "🍗", slug: "mangsho" },
-    { name: "ডিম-দুধ", icon: "🥛", slug: "dim-dudh" },
-    { name: "মসলা", icon: "🌶️", slug: "moshla" },
+    { name: "ডিম-দুধ", icon: "🥛", slug: "dim-dui" },
+    { name: "মসলা", icon: "🌶️", slug: "mosla" },
 ];
 
 export default function CategoryNav() {
