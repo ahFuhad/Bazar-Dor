@@ -5,7 +5,7 @@ Bazar Dor is a simple market price tracking website made with Next.js. It helps 
 ## Live Website
 
 - GitHub Repository: https://github.com/ahFuhad/Bazar-Dor
-- Live Demo: (https://bazar-dor-z1ui.vercel.app/).
+- Live Demo: https://bazar-dor-z1ui.vercel.app/
 
 ## Features
 
