@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bazar Dor (বাজার দর) 🛒
 
-## Getting Started
+Bazar Dor is a simple market price tracking website made with Next.js. It helps people see the prices of daily necessary products in Bangladesh. Users can check product prices, compare market prices, and see which products have increasing or decreasing prices.
 
-First, run the development server:
+## Live Website
+
+- GitHub Repository: https://github.com/ahFuhad/Bazar-Dor
+- Live Demo: (https://bazar-dor-z1ui.vercel.app/).
+
+## Features
+
+- Users can see different products and their current prices.
+- Users can see products with increasing and decreasing prices.
+- Users can browse products by category.
+- Users can sort products by price from low to high or high to low.
+- Users can view product details and compare prices from different markets.
+- Users can create an account and sign in with email and password.
+- Users can view their profile and update their name.
+- Users need to sign in before viewing product details.
+- The website uses Bengali text and Bengali number formatting.
+- The website is responsive and works on mobile and desktop screens.
+
+## Technologies Used
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Better Auth
+- MongoDB
+- Sonner
+- Lucide React
+
+## How to Run the Project Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/ahFuhad/Bazar-Dor.git
+```
+
+### 2. Go to the project folder
+
+```bash
+cd Bazar-Dor
+```
+
+### 3. Install the packages
+
+```bash
+npm install
+```
+
+### 4. Set up environment variables
+
+Create a `.env.local` file in the project root and add your own configuration:
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+BETTER_AUTH_SECRET=your_secret_key
+BETTER_AUTH_URL=http://localhost:3000
+```
+
+Replace the example values with your actual configuration. Do not upload this file to GitHub because it contains private information.
+
+### 5. Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Check the Project
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To check TypeScript errors, run:
 
-## Learn More
+```bash
+npx tsc --noEmit
+```
 
-To learn more about Next.js, take a look at the following resources:
+To build the project for production, run:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Both commands completed successfully during my project development.
 
-## Deploy on Vercel
+## Important Note
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The prices shown on this website are for reference only. Actual prices may change depending on the market and location.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Author
+
+This project was created as part of my Programming Hero web development assignment.
+
+Thank you for visiting my project!
