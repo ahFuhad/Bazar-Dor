@@ -1,5 +1,4 @@
-const BASE_URL =
-    "https://api.api-store.workers.dev/api/bazardor";
+const BASE_URL = "https://api.abcz.workers.dev/api/bazardor";
 
 export type Market = {
     market: string;
@@ -29,8 +28,10 @@ export type Product = {
 };
 
 export async function getProducts(): Promise<Product[]> {
-    const response = await fetch(`${BASE_URL}/products`);
-
+    const response = await fetch(`${BASE_URL}/products`, {
+        next: { revalidate: 300 },
+        });
+    
     if (!response.ok) {
         throw new Error("পণ্য লোড করা যায়নি");
     }
